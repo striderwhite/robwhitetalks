@@ -4,24 +4,20 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
  */
 body {
-  font-family: 'Open Sans', serif;
-  padding-top: 54px;
-  color: #495057; }
+  font-family: 'Roboto', serif;
+  padding-top: 25px;
+  color: #495057;
+  background: url(../img/sandpaper.png);
+  background-repeat: repeat,repeat;
+  word-wrap: break-word; }
 
 @media (min-width: 992px) {
   body {
     padding-top: 0;
     padding-left: 17rem;
-    background: white;
-    /* Old browsers */
-    background: -moz-linear-gradient(-45deg, white 0%, #f1f1f1 24%, #a6bca7 50%, #f6f6f6 100%);
-    /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg, white 0%, #f1f1f1 24%, #a6bca7 50%, #f6f6f6 100%);
-    /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg, white 0%, #f1f1f1 24%, #a6bca7 50%, #f6f6f6 100%);
-    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=1 );
-    /* IE6-9 fallback on horizontal gradient */ } }
+    padding-right: 25%;
+    background: url(../img/sandpaper.png);
+    background-repeat: repeat,repeat; } }
 
 h1,
 h2,
@@ -29,8 +25,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Saira Extra Condensed', serif;
-  font-weight: 700;
+  font-family: 'Roboto', serif;
+  font-weight: 600;
   text-transform: uppercase;
   color: #343a40; }
 
@@ -39,12 +35,12 @@ h1 {
   line-height: 5.5rem; }
 
 h2 {
-  font-size: 3.5rem; }
+  font-size: 2.5rem; }
 
 .subheading {
   text-transform: uppercase;
   font-weight: 500;
-  font-family: 'Saira Extra Condensed', serif;
+  font-family: 'Roboto', serif;
   font-size: 1.35rem; }
 
 .list-social-icons a {
@@ -97,14 +93,14 @@ h2 {
 
 section.resume-section {
   border-bottom: 1px solid #dee2e6;
-  padding-top: 5rem !important;
-  padding-bottom: 5rem !important; }
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important; }
   section.resume-section .resume-item .resume-date {
     min-width: none; }
 
 @media (min-width: 768px) {
   section.resume-section {
-    min-height: 100vh; }
+    min-height: 85vh; }
     section.resume-section .resume-item .resume-date {
       min-width: 18rem; } }
 

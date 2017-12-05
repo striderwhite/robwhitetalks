@@ -2,22 +2,28 @@
 
 body {
   @include body-font;
-  padding-top: 54px;
+  padding-top: 25px;
   color: $gray-700;
-
-
+  background: url(../img/sandpaper.png);
+  background-repeat: repeat,repeat;
+  word-wrap: break-word;
 
 }
 @media (min-width: 992px) {
   body {
     padding-top: 0;
     padding-left: $sidebar-base-width;
-    
-    background: rgb(255,255,255); /* Old browsers */
-    background: -moz-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(241,241,241,1) 24%, rgba(166,188,167,1) 50%, rgba(246,246,246,1) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg, rgba(255,255,255,1) 0%,rgba(241,241,241,1) 24%,rgba(166,188,167,1) 50%,rgba(246,246,246,1) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg, rgba(255,255,255,1) 0%,rgba(241,241,241,1) 24%,rgba(166,188,167,1) 50%,rgba(246,246,246,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    padding-right: 25%;
+
+
+    background: url(../img/sandpaper.png);
+    background-repeat: repeat,repeat;
+
+    //background: rgb(255,255,255); /* Old browsers */
+    //background: -moz-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(241,241,241,1) 24%, rgba(166,188,167,1) 50%, rgba(246,246,246,1) 100%); /* FF3.6-15 */
+    //background: -webkit-linear-gradient(-45deg, rgba(255,255,255,1) 0%,rgba(241,241,241,1) 24%,rgba(166,188,167,1) 50%,rgba(246,246,246,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    //background: linear-gradient(135deg, rgba(255,255,255,1) 0%,rgba(241,241,241,1) 24%,rgba(166,188,167,1) 50%,rgba(246,246,246,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    //filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
 
   }
@@ -30,7 +36,7 @@ h4,
 h5,
 h6 {
   @include heading-font;
-  font-weight: 700;
+  font-weight: 600;
   text-transform: uppercase;
   color: $gray-800;
 }
@@ -41,7 +47,7 @@ h1 {
 }
 
 h2 {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
 }
 
 .subheading {
